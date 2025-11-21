@@ -22,7 +22,7 @@ jobs:
     steps:
 
       - name: Fetch sources
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Validate Gradle Wrapper
         uses: gradle/actions/wrapper-validation@v5
@@ -85,7 +85,7 @@ jobs:
           large-packages: false
 
       - name: Fetch sources
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Set up Java
         uses: actions/setup-java@v5
@@ -124,7 +124,7 @@ jobs:
     steps:
 
       - name: Fetch sources
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Remove old release drafts
         env:
